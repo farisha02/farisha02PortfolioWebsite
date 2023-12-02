@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+      
+      <!-- header -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+          <ul id="sidemenu"> 
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+       <!-- header -->
+      
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="passport.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Background')">Background</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="Background">
+                    <ul>
+                        <li><span>Full Name</span><br>Nurul Farisha Binti Ahmad Tajuddin</li>
+                        <li><span>Age</span><br>21 years old</li>
+                        <li><span>Live</span><br>Kedah</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Primary</span><br>Sekolah Kebangsaan Ayer Puteh</li>
+                        <li><span>Secondary</span><br>Sekolah Menengah Kebangsaan Pendang</li>
+                        <li><span>Tertiary</span><br>Universiti Sultan Zainal Abidin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About --> 
+
+ <script src="newjavascript.js"></script>
+   </body>
+</html>
+
+
